@@ -1,4 +1,4 @@
-# test-java-mail
+# javamail-checker
 
 ## What's this?
 
@@ -10,7 +10,7 @@ This project provides executable fat jar includes javamail impl.
 
 ## Usage?
 
-    $ java -Dmail.smtp.host=localhost -jar test-java-mail-0.0.1-SNAPSHOT.jar \
+    $ java -Dmail.smtp.host=localhost -jar javamail-checker-0.0.1-SNAPSHOT.jar \
            from@example.com \
            to@example.com
 

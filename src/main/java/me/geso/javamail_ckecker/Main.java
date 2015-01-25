@@ -1,4 +1,4 @@
-package me.geso.test_java_mail;
+package me.geso.javamail_ckecker;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -19,7 +19,7 @@ import javax.mail.internet.MimeMessage;
 public class Main {
 	public static void main(String[] args) throws UnknownHostException {
 		if (args.length != 2) {
-			String msg = "Usage: java -Dmail.smtp.host=localhost -jar test-java-mail-0.0.1-SNAPSHOT.jar from@example.com to@example.com";
+			String msg = "Usage: java -Dmail.smtp.host=localhost -jar javamail-checker-0.0.1-SNAPSHOT.jar from@example.com to@example.com";
 			System.out.println(msg);
 			return;
 		}

@@ -3,10 +3,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>me.geso</groupId>
-	<artifactId>test-java-mail</artifactId>
+	<artifactId>javamail-checker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>test-java-mail</name>
-	<description>test-java-mail</description>
+	<name>javamail-checker</name>
+	<description>javamail-checker</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -14,9 +14,9 @@
 	</properties>
 
 	<scm>
-		<url>https://github.com/tokuhirom/test-java-mail/</url>
-		<connection>scm:git:git://github.com/tokuhirom/test-java-mail.git</connection>
-		<developerConnection>scm:git:git@github.com:tokuhirom/test-java-mail.git</developerConnection>
+		<url>https://github.com/tokuhirom/javamail-checker/</url>
+		<connection>scm:git:git://github.com/tokuhirom/javamail-checker.git</connection>
+		<developerConnection>scm:git:git@github.com:tokuhirom/javamail-checker.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -98,7 +98,7 @@
 									implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>me.geso.test_java_mail.Main</mainClass>
+									<mainClass>me.geso.javamail_ckecker.Main</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
