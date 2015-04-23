@@ -22,6 +22,10 @@ This command send e-mail to `to@example.com` from `from@example.com`.
 
 Python distribution bundles built-in smtp server library. You can use it for testing purpose.
 
+## Download?
+
+See https://github.com/tokuhirom/javamail-checker
+
 ## What's license?
 
     The MIT License (MIT)
